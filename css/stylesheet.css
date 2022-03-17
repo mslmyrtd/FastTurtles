@@ -2650,3 +2650,44 @@ input:-internal-autofill-selected {
   left: -40px;
   border-radius: 4px 0px 0px 4px;
 }
+
+
+.container{
+ 
+  /* transform: translate(-50%,-50%); */
+  /* width: 20%; */
+}
+.container span{
+  text-transform: uppercase;
+  display: block;
+  /* transform: translate(-50%,-50%); */
+} 
+
+.text1{
+  color: orange;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+} 
+.text2{
+  font-size: 30px;
+  color: #6ab04c;
+}  
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}  
