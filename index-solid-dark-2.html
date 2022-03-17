@@ -104,8 +104,29 @@
           <!-- Contact Us
           ========================= -->
           <div class="col-lg-4 my-auto py-lg-5 container">
-            <span class="text1">Welcome In</span>
-  <span class="text2">Fast Turtles</span>
+             <div class="row bg-dark-2 rounded shadow-md text-center mx-0 py-4 mb-4 mb-lg-0">
+              <div class="col-11 mx-auto">
+                <h3 class="fw-600 text-white mb-3 mt-3">Contact Us</h3>
+                <p class="text-muted mb-4">For Customer Support, Send us a note.</p>
+                <!-- Contact Form -->
+                <form id="contact-form" class="form-dark" action="php/mail.php" method="post">
+                  <div class="mb-3">
+                    <input id="name" name="name" type="text" class="form-control border-2" placeholder="Enter Your Name" required="">
+                  </div>
+                  <div class="mb-3">
+                    <input id="email" name="email" type="email" class="form-control border-2" placeholder="Enter Your Email" required="">
+                  </div>
+                  <div class="mb-3">
+                    <textarea id="form-message" name="form-message" class="form-control border-2" rows="2" placeholder="Enter Your Query" required=""></textarea>
+                  </div>
+                  <div class="d-grid mt-4">
+                    <button id="submit-btn" class="btn btn-primary" type="submit">Send Message</button>
+                  </div>
+                </form>
+                <!-- Contact Form end --> 
+                
+              </div>
+            </div>
   
                 
                 
@@ -124,7 +145,7 @@
   <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title fw-600 text-7 mx-auto">About Us</h5>
+        <h5 class="modal-title fw-600 text-7 mx-auto">Hakkımızda</h5>
         <button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body p-4">
@@ -133,21 +154,21 @@
           <div class="col-lg-4">
             <div class="featured-box text-center">
               <div class="featured-box-icon text-primary"> <i class="far fa-thumbs-up"></i></div>
-              <h4 class="fw-600">Why Choose Us</h4>
+              <h4 class="fw-600">Neden Bizi Seçmelisiniz</h4>
               <p class="text-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="featured-box text-center">
               <div class="featured-box-icon text-primary"> <i class="far fa-paper-plane"></i></div>
-              <h4 class="fw-600">Our Mission</h4>
+              <h4 class="fw-600">Misyonumuz</h4>
               <p class="text-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="featured-box text-center">
               <div class="featured-box-icon text-primary"> <i class="far fa-eye"></i></div>
-              <h4 class="fw-600">Our Vision</h4>
+              <h4 class="fw-600">Vizyonumuz</h4>
               <p class="text-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.</p>
             </div>
           </div>
@@ -156,7 +177,7 @@
 		<hr class="my-5">
 		
 		<!-- Recent Work -->
-		<h3 class="text-center my-5">Some of our most recent projects.</h3>
+		<h3 class="text-center my-5">Çalışma Alanlarımız</h3>
 		<div class="portfolio popup-img-gallery">
           <div class="row g-4">
             <div class="col-sm-6 col-lg-4">
@@ -164,7 +185,7 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-2.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-2.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Marka ve Kreatif</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -175,7 +196,7 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-3.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-3.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Yazılım Geliştirme</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -186,7 +207,7 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-4.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-4.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Sosyal Medya</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -197,7 +218,7 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-5.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-5.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Fotoğraf ve Video</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -208,7 +229,18 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-6.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-6.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Sosyal Medya</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="portfolio-box rounded">
+                <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg-6.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg-6.jpg"></a>
+                    <div class="portfolio-overlay-details">
+                      <h5 class="text-white fw-400">Analiz ve Raporlama</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
@@ -219,7 +251,7 @@
                 <div class="portfolio-img rounded"> <img class="img-fluid d-block" src="images/intro-bg.jpg" alt="">
                   <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/intro-bg.jpg"></a>
                     <div class="portfolio-overlay-details">
-                      <h5 class="text-white fw-400">Project Title</h5>
+                      <h5 class="text-white fw-400">Digital Pazarlama</h5>
                       <span class="text-light">Category</span> </div>
                   </div>
                 </div>
