@@ -2684,8 +2684,106 @@ input:-internal-autofill-selected {
    
     70%,90%
     {
-        width:55%;
+        width:68%;
         
         
     }
+}
+
+@media screen and (max-width:700px){
+#data{
+  
+  margin-left: 19px;
+    font-size: 2.5vw;  
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width:0;
+        
+    }
+   
+    70%,90%
+    {
+        width:90%;
+        
+        
+    }
+}
+
+}
+
+@media screen and (max-width:850px){
+#data{
+  
+  margin-left: 10px;
+    font-size: 1.5vw;  
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width:0;
+        
+    }
+   
+    70%,90%
+    {
+        width:100%;
+        
+        
+    }
+}
+
+}
+@media screen and (max-width:400px){
+#data{
+  
+  margin-left: 20px;
+    font-size: 2.5vw;  
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width:0;
+        
+    }
+   
+    70%,90%
+    {
+        width:91%;
+        
+        
+    }
+}
+
+}
+@media screen and (max-width:360px){
+#data{
+  
+  margin-left: 20px;
+    font-size: 2.5vw;  
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width:0;
+        
+    }
+   
+    70%,90%
+    {
+        width:80%;
+        
+        
+    }
+}
+
 }
