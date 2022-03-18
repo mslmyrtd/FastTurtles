@@ -906,6 +906,19 @@ hr {
 }
 
 @media (max-width: 575.98px) {
+  .subscribe-form{
+    margin-bottom: -50px;
+  }
+  #subscribe-form-submit{
+    padding: 4px 0px;
+    
+  }
+   .text-15 {
+    font-size: 2rem !important;
+  }
+   .text-5 {
+    font-size: 1rem !important;
+  }
   .navbar-expand-sm .navbar-collapse {
     position: absolute;
     top: 99%;
@@ -1056,6 +1069,7 @@ hr {
   }
 }
 @media (max-width: 991.98px) {
+  
   .navbar-expand-lg .navbar-collapse {
     position: absolute;
     top: 99%;
@@ -2653,11 +2667,11 @@ input:-internal-autofill-selected {
 
 
 #data{
-  
+    font-weight: bold;
     position: relative;
-    font-size: 1vw;
-    color:#808396;
-   -webkit-text-stroke:0.2vw #383d52;
+    font-size: 14px;
+    color:#111418;
+   -webkit-text-stroke:0.2vw #111418;
    text-transform: uppercase;
 }
 #data::before{
@@ -2667,123 +2681,27 @@ input:-internal-autofill-selected {
     left: 0;
     width: 40%;
     height: 100%;
-    color:#1dda16;
+    color:#A2C63A;
     -webkit-text-stroke:0vw #0f288b;
-    border-right: 2px solid #01fe87;
+    border-right: 5px solid #0372B8;
     overflow: hidden;
-    animation:animate 6s linear infinite ;
+    animation:animate 5s linear infinite ;
+    
 
 }
 @keyframes animate
 {
-    0%,10%,100%
+    0%
     {
         width:0;
         
     }
    
-    70%,90%
+    100%
     {
-        width:68%;
+        width:109%;
         
         
     }
 }
 
-@media screen and (max-width:700px){
-#data{
-  
-  margin-left: 19px;
-    font-size: 2.5vw;  
-}
-
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width:0;
-        
-    }
-   
-    70%,90%
-    {
-        width:90%;
-        
-        
-    }
-}
-
-}
-
-@media screen and (max-width:850px){
-#data{
-  
-  margin-left: 10px;
-    font-size: 1.5vw;  
-}
-
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width:0;
-        
-    }
-   
-    70%,90%
-    {
-        width:100%;
-        
-        
-    }
-}
-
-}
-@media screen and (max-width:400px){
-#data{
-  
-  margin-left: 20px;
-    font-size: 2.5vw;  
-}
-
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width:0;
-        
-    }
-   
-    70%,90%
-    {
-        width:91%;
-        
-        
-    }
-}
-
-}
-@media screen and (max-width:360px){
-#data{
-  
-  margin-left: 20px;
-    font-size: 2.5vw;  
-}
-
-@keyframes animate
-{
-    0%,10%,100%
-    {
-        width:0;
-        
-    }
-   
-    70%,90%
-    {
-        width:80%;
-        
-        
-    }
-}
-
-}
