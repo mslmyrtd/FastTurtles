@@ -2656,8 +2656,8 @@ input:-internal-autofill-selected {
   
     position: relative;
     font-size: 1vw;
-    color:#252839;
-   -webkit-text-stroke:0.3vw #383d52;
+    color:#808396;
+   -webkit-text-stroke:0.2vw #383d52;
    text-transform: uppercase;
 }
 #data::before{
@@ -2665,9 +2665,9 @@ input:-internal-autofill-selected {
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 40%;
     height: 100%;
-    color:#01fe87;
+    color:#1dda16;
     -webkit-text-stroke:0vw #0f288b;
     border-right: 2px solid #01fe87;
     overflow: hidden;
@@ -2681,9 +2681,11 @@ input:-internal-autofill-selected {
         width:0;
         
     }
+   
     70%,90%
     {
         width:55%;
+        
         
     }
 }
